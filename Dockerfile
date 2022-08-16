@@ -1,4 +1,5 @@
-FROM alpine:edge
+FROM node:lts-alpine
+
 ENV USERNAME="user" \
     PASSWORD="Passw0rd" \
     SUDO_OK="false" \
